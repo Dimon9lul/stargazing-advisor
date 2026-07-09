@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Agent
+IDEA.md
+
+# Data-saving files:
+saved-locations
