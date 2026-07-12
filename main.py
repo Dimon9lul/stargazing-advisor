@@ -65,7 +65,7 @@ def start(location: str = None):
     # Fetch data
     if not location:
         print("\n⭐ Set location for stargazing")
-        location = input('🌐Format: enter "<longitude> <latitude>" or "here" for saved locations:\n')
+        location = input('🌐 Format: enter "<longitude> <latitude>" or "here" for saved locations:\n')
 
     location = location.strip().replace(",", ".").replace('"', '')
 
