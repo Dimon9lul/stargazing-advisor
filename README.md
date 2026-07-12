@@ -23,7 +23,7 @@ Not all clear nights are equal for stargazing. Factors like moon phase, atmosphe
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/yourusername/startgazing-advisor.git
+   git clone https://github.com/yourusername/startgazing-advisor.git
 >   cd startgazing-advisor
    ```
 2. Install the dependencies:
@@ -61,4 +61,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - **[Horizons API](https://ssd-api.jpl.nasa.gov/doc/horizons.html#ephem_type)** for data on the moon and sun
 
 ---
-*Made with 🌌 by the Stargazing Advisor Team.*
+Made with ❤️ for all space enthusiasts like myself!
