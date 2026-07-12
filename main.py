@@ -64,7 +64,7 @@ def rm_double_spaces(s: str):
 def start(location: str = None):
     # Fetch data
     if not location:
-        print("\n⭐Set location for stargazing")
+        print("\n⭐ Set location for stargazing")
         location = input('🌐Format: enter "<longitude> <latitude>" or "here" for saved locations:\n')
 
     location = location.strip().replace(",", ".").replace('"', '')
@@ -96,7 +96,7 @@ def start(location: str = None):
 
         get_file(longitude, latitude)
 
-    print("\n🌠On what day are you going stargazing?")
+    print("\n🌠 On what day are you going stargazing?")
     days = get_three_days()
     for i, key in enumerate(days):
         print(f"{i+1}. {days[key]} {key}")
@@ -114,7 +114,7 @@ def start(location: str = None):
             continue
         break
 
-    print("\n⛰️Are you on a especially high altitude?")
+    print("\n⛰️ Are you on a significantly high altitude?")
     print("1. No")
     print("2. About 2km")
     print("3. About 7km")
